@@ -1,6 +1,6 @@
 {
   "name": "postcss-hidden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A PostCSS plugin for hiding things.",
   "keywords": [
     "postcss",
@@ -17,7 +17,7 @@
   "author": "Luke Larsen <luke@lukelarsen.com>",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/lukelarsen/postcss-hidden"
+    "url": "https://github.com/lukelarsen/postcss-hidden"
   },
   "license": "MIT",
   "dependencies": {
