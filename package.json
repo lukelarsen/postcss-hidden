@@ -1,0 +1,14 @@
+{
+  "name": "postcss-hidden",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin for hiding things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Larsen",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.11"
+  }
+}
