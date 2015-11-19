@@ -11,7 +11,7 @@
 There are a few things to think about when hiding things via css. Do you want your item hidden completely? Do you want it to be seen by screen readers? Should it be invisible but still take up space? Based on what you need there are three options you can use with this plugin.
 
 ###1. display: disappear;
-Use disappear when you want to remove something completely from the page. This will include from the flow and from screen readers and assistive technology. It will do with with display: none !important;.
+Use disappear when you want to remove something completely from the page. This includes hiding the item screen readers and assistive technology. It will do this with display: none !important;.
 
 ```css
 h1 {
@@ -29,7 +29,7 @@ h1 {
 ```
 
 ###2. display: hidden;
-Use hidden when you want to hide something but keep it available to screen readers and assistive technology. It will not however use up space in the document flow.
+Use hidden when you want to hide something but keep it available to screen readers and assistive technology. It will not use up space in the document flow.
 
 ```css
 h2{
