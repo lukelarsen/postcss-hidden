@@ -8,21 +8,18 @@
 
 [PostCSS] plugin for hiding things.
 
+There are a few things to think about when hiding things via css. Do you want your item hidden completely? Do you want it to be seen by screen readers? Should it be invisible but still take up space? Based on what you need there are three options you can use with this plugin.
+
+**1. display: disappear;
+Use disappear when you want to remove something completely from the page. This will include from the flow and from screen readers and assistive technology. It will do with with display: none !important;.
+
 ```css
 h1 {
     display: disappear;
 }
-
-h2{
-    display: hidden;
-}
-
-h3{
-    display: invisible;
-}
 ```
 
-Will output
+Will output:
 
 ```css
 h1 {
@@ -30,6 +27,18 @@ h1 {
     visibility: hidden;
 }
 
+**2. display: hidden;
+Use hidden when you want to hide something but keep it available to screen readers and assistive technology. It will not however use up space in the document flow.
+
+```css
+h2{
+    display: hidden;
+}
+```
+
+Will output:
+
+```css
 h2{
     position: absolute;
     width: 1px;
@@ -47,7 +56,20 @@ h2.focusable:focus {
     position: static;
     clear: both;
 }
+```
 
+**3. display: invisible;
+Use invisible when you want to hide something while keeping it available to screen readers and assistive technology along with letting it take up space in the document. The block will only be visually hidden.
+
+```css
+h3{
+    display: invisible;
+}
+```
+
+Will output
+
+```css
 h3{
     visibility: hidden;
 }
