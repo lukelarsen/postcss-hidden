@@ -22,6 +22,8 @@ h3{
 }
 ```
 
+Will output
+
 ```css
 h1 {
     display: none !important;
