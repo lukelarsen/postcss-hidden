@@ -84,6 +84,7 @@ npm install postcss-hidden
 
 ### Gulp
 ```js
+var postcss = require('gulp-postcss');
 var hidden = require('postcss-hidden');
 
 gulp.task('css', function () {
