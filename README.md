@@ -79,7 +79,7 @@ h3{
 ## Usage
 
 ```
-npm install postcss-hidden
+npm install postcss-hidden --save-dev
 ```
 
 ### Gulp
