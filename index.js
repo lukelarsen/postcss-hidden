@@ -5,6 +5,11 @@ module.exports = postcss.plugin('hidden', function hidden(options) {
         options = options || {};
         css.walkRules(function(rule) {
             rule.walkDecls(function(decl, i) {
+                // Stop the process if the property isn't display
+                if(decl.prop !== 'display'){
+                    return;
+                }
+
                 var value = decl.value;
 
                 if (value.indexOf('disappear') !== -1) {
