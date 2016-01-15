@@ -1,6 +1,6 @@
 [PostCSS]:                 https://github.com/postcss/postcss
 
-# PostCSS Hidden
+# PostCSS Hidden [![Build Status](https://travis-ci.org/lukelarsen/postcss-hidden.svg?branch=master)](https://travis-ci.org/lukelarsen/postcss-hidden)
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
