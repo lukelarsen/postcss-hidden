@@ -10,9 +10,12 @@
     "display",
     "invisible"
   ],
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test.js"
   },
   "author": "Luke Larsen <luke@lukelarsen.com>",
   "repository": {
@@ -22,5 +25,8 @@
   "license": "MIT",
   "dependencies": {
     "postcss": "^5.0.11"
+  },
+  "devDependencies": {
+    "ava": "^0.10.0"
   }
 }
