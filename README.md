@@ -60,7 +60,7 @@ h2.focusable:focus {
 ```
 
 ### 3. display: invisible;
-Use invisible when you want to hide something while keeping it available to screen readers and assistive technology along with letting it take up space in the document. The block will only be visually hidden.
+Use invisible when you want to hide something and make it hidden to screen readers and assistive technology. It will take up space in the document. The block will only be visually hidden.
 
 ```css
 h3{
